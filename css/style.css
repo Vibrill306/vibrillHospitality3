@@ -1,0 +1,1600 @@
+@font-face {
+    font-family: "comfortaa-heading";
+    src: url("/fonts/Comfortaa/static/Comfortaa-Regular.ttf");
+
+    font-family: "proza-context";
+    src: url("/fonts/Proza_Libre/ProzaLibre-Regular.ttf");
+
+    font-family: "belleza-sub-heading";
+    src: url("/fonts/Belleza/Belleza-Regular.ttf");
+
+    font-family: "shalimar-italic";
+    src: url("/fonts/Shalimar/Shalimar-Regular.ttf");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.logo-1 {
+    position: fixed;
+    top: 0%;
+    left: 5%;
+    z-index: 1;
+    /* border-radius: 0px 0px 15px 15px; */
+    display: block;
+}
+
+.logo-1 img {
+    height: 100px;
+}
+
+.none {
+    display: none;
+}
+
+.block {
+    display: block;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
+}
+
+
+/* carousel  */
+
+
+
+.home-carousel .carousel .carousel-caption {
+    height: 100%;
+}
+
+.home-carousel .carousel .carousel-caption h5 {
+    font-size: 24px;
+    padding-top: 150px;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #fff;
+    /* position: relative; */
+    text-shadow: black 0.5px 0.5px;
+}
+
+
+
+/* .carousel .carousel-caption h5:after{
+    content: "";
+    height: 2px;
+    background-color: black;
+    width: 100px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%,0%);
+} */
+
+.home-carousel .carousel .carousel-caption p {
+    font-size: 55px;
+    text-transform: uppercase;
+    line-height: 1.35em;
+    -webkit-animation-delay: .6s;
+    animation-delay: .6s;
+    color: #fff;
+    font-weight: 400;
+    letter-spacing: 15px;
+    font-family: "comfortaa-heading";
+    text-shadow: black 0.5px 0.5px;
+}
+
+.home-carousel .carousel .carousel-caption button {
+    font-weight: 400;
+    font-family: 'comfortaa-heading';
+    text-transform: uppercase;
+    background: transparent;
+    color: #fff;
+    padding: 12px 20px;
+    margin: 0;
+    position: relative;
+    font-size: 15px;
+    letter-spacing: 3px;
+    text-shadow: black 0.5px 0.5px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.home-carousel .carousel .carousel-caption button:hover {
+    background-color: white;
+    color: black;
+    text-shadow: black 0px 0px;
+}
+
+/* Main Headings and Paragraph */
+
+.home-carousel .container .main-heading {
+    font-family: 'Comfortaa-heading';
+    font-size: 50px;
+}
+
+.home-carousel .container .main-para {
+    font-family: 'Proza Libre', sans-serif;
+    padding: 0px 100px 0px 100px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+/* 
+.dropdown-custom:hover .dropdown-menu {
+    display: block;
+} */
+
+.section-1 {
+    padding-top: 2rem;
+}
+
+.fa-star {
+    color: #e4a853;
+    margin-bottom: 5px;
+}
+
+.section-subtitle {
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #666;
+    text-transform: uppercase;
+    position: relative;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.section-title {
+    font-family: 'Comfortaa-heading';
+    font-weight: 500;
+    color: #000;
+    /* color: #58595b; */
+    font-size: 2.5rem;
+    line-height: 1.2em;
+}
+
+.section-1 p:nth-of-type(3) {
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: #666;
+    margin-bottom: 20px;
+
+}
+
+.section-1 p:nth-of-type(4) {
+    font-family: 'Proza Libre', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.75em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.icon img:hover {
+    background-color: rgb(255, 0, 30);
+    transition: all 1s;
+}
+
+.icon img {
+    border: 2px solid rgb(255, 0, 30);
+    border-radius: 50%;
+    padding: 8px;
+    height: 150px;
+    width: 150px;
+}
+
+.text p:nth-of-type(1) {
+    font-family: 'Belleza', sans-serif;
+    font-size: 25px;
+    margin: 0px;
+}
+
+.text a {
+    font-family: 'Belleza', sans-serif;
+    font-size: 25px;
+    color: #8e6d45;
+    letter-spacing: 1px;
+}
+
+.elementor img {
+    height: auto;
+    max-width: 100%;
+    border: 2px solid black;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: 1px 1px 2px 2px #58595b;
+}
+
+.mb-30 {
+    margin-bottom: 30px !important;
+}
+
+.mt-90 {
+    margin-top: 90px !important;
+}
+
+.mb-2-30 {
+    margin-bottom: 30px !important;
+}
+
+.mt-2-90 {
+    margin-top: 175px !important;
+}
+
+/* section 2 */
+
+.bg-black {
+    background: #000 !important;
+    padding: 50px 0px;
+}
+
+.section-subtitle-2 {
+    font-family: 'Comfortaa-heading';
+    color: whitesmoke;
+    font-weight: 400;
+    line-height: 1.2em;
+    font-size: 2.5rem;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.section-subtitle-2:after {
+    content: "";
+    height: 2px;
+    width: 60px;
+    background-color: white;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    transform: translate(0%, 0%);
+}
+
+.different-font-word {
+    font-family: 'Comforter Brush', cursive;
+}
+
+
+.vacation button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+/* section 3 */
+.section-3 {
+    /* background-color: #e5e5e5; */
+    background-color: #fff;
+}
+
+.section-3 .row h1 {
+    font-family: 'Comfortaa-heading';
+    font-weight: 500;
+    /* color: #58595b; */
+    color: black;
+    font-size: 2.5rem;
+    line-height: 1.2em;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+.card-img-top {
+    height: 200px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.vacation .card-body button {
+    font-weight: 400;
+    font-family: 'comfortaa-heading';
+    text-transform: uppercase;
+    background: transparent;
+    color: #000;
+    padding: 7px 10px;
+    margin: 0;
+    position: relative;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-shadow: black 0.5px 0.5px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.vacation .card-body button:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+/*-------------------------------------------------------- flip-card-------------------------------------------------------- */
+
+.card_1,.card_2, .card_3 {
+    margin: 30px auto;
+    width: 400px;
+    height: 460px;
+    perspective: 1000px;
+  }
+
+  .card__inner1, .card__inner2, .card__inner3 {
+    width: 100%;
+    height: 100%;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative;
+  }
+
+  .card__inner1.is-flipped {
+    transform: rotateY(180deg);
+  }
+
+  .card__inner2.is-flipped {
+    transform: rotateY(180deg);
+  }
+
+  .card__inner3.is-flipped {
+    transform: rotateY(180deg);
+  }
+
+  .card__face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: hidden;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 0px 3px 18px 3px rgba(255, 255, 255, 0.2);
+  }
+
+  /* .card__face--front { */
+    /* background-image: url('../../Downloads/Vibrill2-main/images/card-4.jpg'); */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+  /* } */
+
+  .card__face--front h6 {
+    padding-top: 10px;
+    padding-left: 30px;
+    color: black;
+    font-size: 2rem;
+  }
+
+  .card__face--front p {
+    padding: 10px 30px;
+    color: black;
+    line-height: 1.5;
+    font-size: 1rem;
+  }
+
+  .card__face--front button {
+    padding: 15px 20px;
+    /* width: 30%; */
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-left: 120px;
+    font-size: 14px;
+    border-radius: 25px;
+  }
+
+  .card__face--back {
+    background-color: wheat;
+    transform: rotateY(180deg);
+  }
+
+  /* .card__content {
+    width: 100%;
+    height: 100%;
+  } */
+
+  .card__header {
+    /* position: relative; */
+    padding: 50px 20px;
+  }
+
+  .card__header p{
+    line-height: 1.5;
+  }
+
+  .card__body button{
+    padding: 15px 20px;
+    width: 30%;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin-left: 140px;
+    font-size: 14px;
+    border-radius: 25px;
+  }
+
+  /* .card__header:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: linear-gradient(to bottom left, var(--primary) 10%, var(--secondary) 115%);
+    z-index: -1;
+    border-radius: 0px 0px 50% 0px;
+  } */
+
+
+/*-------------------------------------------------------- flip-card-------------------------------------------------------- */
+
+
+
+
+
+
+
+
+
+.carousel .carousel-caption h6 {
+    font-family: "comfortaa-heading";
+}
+
+.section-3 .row h1:after {
+    content: "";
+    height: 2px;
+    width: 60px;
+    background-color: black;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+
+/* boutique */
+
+.boutique .carousel .carousel-item button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel .carousel-caption h6 {
+    font-size: 24px;
+    padding-top: 100px;
+    line-height: 1.5;
+    font-weight: 400;
+    font-family: "comfortaa-heading";
+    color: #000;
+    /* position: relative; */
+    /* text-shadow: black 0.8px 0.8px; */
+    font-weight: 900;
+}
+
+
+.boutique .carousel .carousel-item button {
+    font-weight: 400;
+    font-family: 'comfortaa-heading';
+    text-transform: uppercase;
+    background: transparent;
+    color: #000;
+    padding: 5px 10px;
+    margin: 0px auto;
+    position: relative;
+    font-size: 15px;
+    letter-spacing: 1px;
+    /* text-shadow: black 0.5px 0.5px; */
+    border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.boutique .carousel .carousel-item button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.boutique .carousel .carousel-caption p {
+    font-size: 16px;
+    text-transform: none;
+    line-height: 1.35em;
+    /* -webkit-animation-delay: .6s; */
+    /* animation-delay: .6s; */
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-family: "belleza-sub-heading";
+    padding-top: 10px;
+    /* text-shadow: black 0.8px 0.8px; */
+}
+
+
+.boutique {
+    padding-bottom: 100px;
+    background-color: #fff;
+}
+
+.boutique .row .col-md-5:nth-child(1) {
+    position: relative;
+    top: 50px;
+    left: 80px;
+    z-index: 1;
+    margin-left: 85px;
+}
+
+.boutique .row .col-md-5:nth-child(1) img {
+    width: 100%;
+    height: 75vh;
+}
+
+/* .boutique .row .col-md-6:nth-child(2) img{
+    height: 70vh;
+    width: 100%;
+} */
+
+.boutique .row .col-md-5:nth-child(2) .carousel-item:nth-child(1) {
+    background: url('../images/boutique.png');
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.boutique .row .col-md-5:nth-child(2) .carousel-item:nth-child(2) {
+    background: url('../images/boutique.png');
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.boutique .row .col-md-5:nth-child(2) .carousel-item:nth-child(3) {
+    background: url('../images/boutique.png');
+    height: 70vh;
+    width: 100%;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.boutique img {
+    object-fit: cover;
+}
+
+
+.boutique .col-md-5:nth-child(2) img {
+    z-index: 1;
+}
+
+
+/* SECTION 6 */
+
+
+.elite-luxury {
+    padding-top: 50px;
+    /* padding-left: 100px; */
+    background-image: url('../images/elite-luxury.png');
+    background-size: cover;
+    background-position: center;
+    background-color: #000;
+}
+
+
+
+.elite-luxury .section-title {
+    color: white;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.elite-luxury .section-title:after {
+    content: "";
+    height: 2px;
+    width: 60px;
+    background-color: white;
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+
+}
+
+.elite-luxury .para {
+    color: white;
+    width: 60%;
+    font-size: 1rem;
+    line-height: 2;
+    word-spacing: 2px;
+    padding-top: 15px;
+}
+
+.elite-luxury button {
+    width: 150px;
+    height: 40px;
+    background-color: white;
+    color: #333;
+    border: none;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+.elite-luxury .row {
+    color: white;
+    padding: 20px 0px;
+    font-size: 1.2rem;
+}
+
+.elite-luxury .fa-house {
+    padding-right: 10px;
+}
+
+.elite-luxury .fa-heart {
+    padding-right: 10px;
+}
+
+.elite-luxury .fa-building {
+    padding-right: 10px;
+}
+
+.elite-luxury .fa-tree {
+    padding-right: 10px;
+}
+
+.elite-luxury .fa-lock {
+    padding-right: 10px;
+}
+
+.elite-luxury .fa-gamepad {
+    padding-right: 10px;
+}
+
+
+/* section 5 */
+
+.bg-light {
+    background: url('../images/bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.section-5 {
+    padding-bottom: 50px;
+}
+
+.section-5 .row h1 {
+    font-family: 'Comfortaa-heading';
+    font-weight: 500;
+    color: black;
+    font-size: 2.5rem;
+    line-height: 1.2em;
+    position: relative;
+}
+
+.section-5 .row h1::after {
+    content: "";
+    display: block;
+    background-color: #000;
+    position: absolute;
+    width: 10%;
+    height: 2px;
+    top: 110%;
+    left: 15px;
+}
+
+.section-5 .row .col-md-3 .card {
+    height: 60vh;
+}
+
+.section-5 .card {
+    overflow: hidden;
+}
+
+.section-5 .card img:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.section-5 .row .col-md-3 {
+    position: relative;
+    display: inline-block;
+}
+
+.caption {
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+}
+
+.BC {
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.717);
+    width: 88%;
+}
+
+.BC a h5:hover {
+    transform: scale(1.2);
+    transition: all 2s;
+}
+
+.BC h5 i {
+    color: #ADADAD;
+}
+
+.section-5 .row .col-md-3 .card:hover {
+    transition: all 0.5s;
+}
+
+.section-5 .row .col-md-3 .card img {
+    height: 100%;
+}
+
+
+/* / section-7 / FOOTER / */
+.section-7 {
+    background-color: #333;
+}
+
+.section-7 .row .col-md-3:nth-child(1) p {
+    line-height: 2;
+    padding-bottom: 20px;
+}
+
+.section-7 h4 {
+    color: white;
+}
+
+.section-7 .row .col-md-2:nth-child(2) p a:hover {
+    color: whitesmoke;
+}
+
+.section-7 .row .col-md-2:nth-child(3) p a:hover {
+    color: whitesmoke;
+}
+
+.section-7 .row .col-md-2:nth-child(4) p a:hover {
+    color: whitesmoke;
+}
+
+.section-7 p,
+p a,
+h5 {
+    color: #adadad;
+}
+
+.icons i {
+    font-size: 14px;
+    height: 30px;
+    width: 30px;
+    padding: 9px;
+    border-radius: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.795);
+}
+
+/* / facebook icon / */
+.icons a:nth-child(1) i:hover {
+    transition: all 1s;
+    transform: scale(1.2);
+}
+
+/* / twitter icon / */
+.icons a:nth-child(2) i:hover {
+    transition: all 1s;
+    transform: scale(1.2);
+}
+
+/* / instagram icon / */
+.icons a:nth-child(3) i:hover {
+    transition: all 1s;
+    transform: scale(1.2);
+}
+
+/* / linkedin icon / */
+.icons a:nth-child(4) i:hover {
+    transition: all 1s;
+    transform: scale(1.2);
+}
+
+/* / facebook icon / */
+.icons-footer a:nth-of-type(1) i {
+    background-color: #3b5997;
+}
+
+/* / twitter icon / */
+.icons-footer a:nth-of-type(2) i {
+    background-color: #00aced;
+}
+
+/* / instagram icon / */
+.icons-footer a:nth-of-type(3) i {
+    background: rgba(0, 0, 0, 0) url('/images/insta-bg.gif') no-repeat scroll 0 0;
+}
+
+/* / linkedin icon / */
+.icons-footer a:nth-of-type(4) i {
+    background-color: #006699;
+
+}
+
+
+
+/* ABOUT SECTION */
+
+.wrapper {
+    height: 75vh;
+}
+
+.fixed-bg {
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+}
+
+.fixed-bg .container .row .col-md-12 {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fixed-bg h5 {
+    font-family: "belleza-sub-heading";
+    font-size: 15px;
+    color: white;
+    letter-spacing: 6px;
+}
+
+.fixed-bg h1 {
+    color: white;
+    font-family: "comfortaa-heading";
+    font-size: 60px;
+}
+
+.bg-1 {
+    background-image: url('/images/banner_2.png');
+}
+
+/* ABOUT-PAGE SECTION-1 */
+.g-tag {
+    font-family: "belleza-sub-heading";
+    font-size: 15px;
+    color: #aa8453;
+    letter-spacing: 6px;
+}
+
+.p-tag {
+    font-family: "comfortaa-heading";
+    font-size: 45px;
+}
+
+.about-section-1 .container .row .col-md-6 .row .col-md-6 img {
+    font-size: 50px;
+    color: #8e6d45;
+}
+
+/* ABOUT-PAGE SECTION-2 */
+.about-section-2 {
+    background: #222;
+}
+
+.h5 {
+    font-family: "belleza-sub-heading";
+    font-size: 15px;
+    color: #aa8453;
+    letter-spacing: 6px;
+}
+
+.h1 {
+    font-family: "comfortaa-heading";
+    /* font-size: 50px; */
+    color: #fff;
+}
+
+.about-section-2 .card-title {
+    font-family: "comfortaa-heading";
+    font-size: 24px;
+    color: #222;
+}
+
+.about-section-2 .card-text {
+    font-family: "proza-context";
+    color: #666;
+    font-size: 16px;
+}
+
+/* ABOUT-SECTION-3 */
+/* .about-section-3 .fixed-bg .container .row .col-md-6:nth-child(1) {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+} */
+
+.about-section-3 .fixed-bg .container .row .col-md-12 h1 {
+    position: relative;
+}
+
+.about-section-3 .fixed-bg .container .row .col-md-12 h1::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 20%;
+    height: 2px;
+    background-color: #aa8453;
+    top: 110%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.about-section-3 .fixed-bg .container .row:nth-child(1) .col-md-12 {
+    height: 20vh;
+    color: #fff;
+}
+
+
+.section-8 .carousel {
+    height: 300px;
+}
+
+.section-8 .carousel .card {
+    height: 250px;
+}
+
+
+.section-8 .carousel-indicators {
+    margin-top: 20px;
+}
+
+
+/* CONTACT-PAGE SECTION-2 */
+
+.contact-section-2 .container .row .col-md-6 h3 {
+    font-weight: 400;
+    font-family: "comfortaa-heading";
+}
+
+.contact-section-2 .container .row .col-md-6 p {
+    color: #666;
+    font-size: 18px;
+    font-family: "proza-context";
+}
+
+.contact-section-2 .text p {
+    margin-bottom: 0px !important;
+    font-size: 20px;
+}
+
+.contact-section-2 .text a {
+    font-size: 18px;
+}
+
+/* national-destinations-section-1 */
+.fa-circle-play {
+    font-size: 80px;
+    border: 2px solid white;
+    color: white;
+    border-radius: 50%;
+    padding: 3px;
+}
+
+.fa-circle-play:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}
+
+.national-resorts .national-subtitle {
+    font-family: "belleza-sub-heading";
+    font-size: 80px;
+    color: black;
+}
+
+.national-resorts img {
+    width: 100%;
+    height: 335px;
+}
+
+.resort-name-h5 {
+    font-size: 32px;
+    color: #222;
+    font-weight: 400;
+    font-family: "belleza-sub-heading";
+}
+
+.national-resorts .container .col-md-6 {
+    /* background-image: url('/images/pexels-henry-&-co-2341290.jpg'); */
+    background-color: #f8f5f0;
+}
+
+.national-resorts .container .row .col-md-3 {
+    position: sticky;
+    /* z-index: 100; */
+}
+
+.list-group-item.active {
+    background-color: black;
+    border: black;
+}
+
+.copy2 {
+    display: none;
+}
+
+.pagination {
+    padding-top: 20px;
+}
+
+
+/* AGRA-DETAILS-SECTION-2 (OWL-CAROUSEL) */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap');
+
+/* .accordion-button:not(.collapsed){
+    color: white;
+    background-color: #222;
+} */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Noto Sans HK', sans-serif;
+    background: #fff;
+}
+
+.slider {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.agra-details-section-2 .container .row:nth-of-type(1) .col-md-12 h4 {
+    font-size: 50px;
+    font-family: "comfortaa-heading";
+    position: relative;
+}
+
+.agra-details-section-2 .container .row:nth-of-type(1) .col-md-12 h4::after {
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: #222;
+    width: 10%;
+    height: 2px;
+    top: 110%;
+    left: 0%;
+}
+
+.agra-details-section-2 .container .row:nth-of-type(1) .col-md-12 p {
+    font-size: 20px;
+    font-family: "proza-context";
+}
+
+.agra-details-section-2 .owl-carousel h5 {
+    color: #333;
+    font-family: "belleza-sub-heading";
+}
+
+
+.agra-details-section-2 .owl-carousel p {
+    color: #333;
+    font-family: "proza-context";
+}
+
+.carousel-heading {
+    font-family: "comfortaa-heading";
+}
+
+.slider .owl-item.active.center .slider-card {
+    transform: scale(1.15);
+    opacity: 1;
+    background: #ff9966;
+    background: -webkit-linear-gradient(to bottom, #ff5e62, #ff9966);
+    background: linear-gradient(to bottom, #ff5e62, #ff9966);
+    color: #fff;
+}
+
+.slider-card {
+    background: #fff;
+    padding: 0px 0px;
+    margin: 50px 15px 90px 15px;
+    border-radius: 5px;
+    box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
+    transform: scale(0.9);
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+.slider-card img {
+    border-radius: 5px 5px 0px 0px;
+}
+
+.owl-nav .owl-prev {
+    position: absolute;
+    top: calc(50% - 25px);
+    left: 0;
+    opacity: 1;
+    font-size: 30px !important;
+    z-index: 1;
+}
+
+.owl-nav .owl-next {
+    position: absolute;
+    top: calc(50% - 25px);
+    right: 0;
+    opacity: 1;
+    font-size: 30px !important;
+    z-index: 1;
+}
+
+.owl-dots {
+    text-align: center;
+}
+
+.owl-dots .owl-dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background: #ccc !important;
+    margin-left: 3px;
+    margin-right: 3px;
+    outline: none;
+}
+
+.owl-dots .owl-dot.active {
+    background: #f44336 !important;
+}
+
+/* AGRA-DETAILS-SECTION-3 */
+
+.agra-details-fixed {
+    background-image: url('/images/taj-yamuna-view.jpg');
+}
+
+.agra-details-section-3 .container .row:nth-of-type(1) .col-md-12 h2 {
+    font-family: "comfortaa-heading";
+    font-size: 50px;
+    position: relative;
+}
+
+.agra-details-section-3 .container .row:nth-of-type(1) .col-md-12 h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: white;
+    height: 3px;
+    width: 10%;
+    top: 110%;
+    left: 0%;
+}
+
+.agra-details-section-3 .container .row:nth-of-type(1) .col-md-12 p {
+    font-family: "proza-context";
+    font-size: 20px;
+}
+
+.agra-details-section-3 .col-md-6 {
+    overflow: hidden;
+}
+
+.agra-details-section-3 img:hover {
+    transform: scale(1.5);
+    transition: all 10s;
+}
+
+.agra-details-section-3 p {
+    font-family: "proza-context";
+    font-size: 18px;
+}
+
+.agra-details-section-3 h1 {
+    font-family: "comfortaa-heading";
+    font-size: 40px;
+}
+
+/* .agra-details-section-3 .container .row:nth-of-type(1) .col-md-12{
+    background-color: #222;
+    color: whitesmoke;
+} */
+
+.agra-details-section-3 .agra-resorts-heading {
+    background-color: #333;
+    color: white;
+}
+
+.agra-resorts-section {
+    /* background-color: #00aced; */
+}
+
+.agra-resorts-section-inside-left {
+    background-color: #e3e3e197;
+    color: black;
+    /* border: 5px solid black; */
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 300px;
+    /* box-shadow: 0px 0px 10px 1px black; */
+}
+
+.agra-resorts-section-inside-right {
+    background-color: #e3e3e197;
+    color: black;
+    /* border: 5px solid black; */
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 300px;
+}
+
+
+
+/* .national-resorts */
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff!important;
+    background-color: #000!important;
+}
+
+.nav-pills .nav-link {
+    color: #000!important;
+}
+
+.national-resorts .row .col-md-3{
+    background-color: #e1e1e18f!important;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: var(--bs-pagination-padding-y) var(--bs-pagination-padding-x);
+    font-size: var(--bs-pagination-font-size);
+    color: #000;
+    outline: none!important;
+    text-decoration: none;
+    background-color: #fff;
+    border: var(--bs-pagination-border-width) solid var(--bs-pagination-border-color);
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+.page-link.active, .active > .page-link {
+    z-index: 3;
+    color: var(--bs-pagination-active-color);
+    background-color: #000;
+    border-color: black;
+    outline: none!important;
+}
+
+
+
+/* / AGRA-DETAILS-SECTION-2 (OWL-CAROUSEL) / */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap');
+
+/* .accordion-button:not(.collapsed){
+    color: white;
+    background-color: #222;
+} */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Noto Sans HK', sans-serif;
+    background: #fff;
+}
+
+.slider {
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.agra-details-section-2 .container .row:nth-of-type(1) .col-md-12 h4 {
+    font-size: 50px;
+    font-family: "comfortaa-heading";
+    position: relative;
+}
+
+.agra-details-section-2 .container .row:nth-of-type(1) .col-md-12 h4::after {
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: #222;
+    width: 10%;
+    height: 2px;
+    top: 110%;
+    left: 0%;
+}
+
+.agra-details-section-2 .container .row:nth-of-type(1) .col-md-12 p {
+    font-size: 20px;
+    font-family: "proza-context";
+}
+
+.agra-details-section-2 .owl-carousel h5 {
+    color: #333;
+    font-family: "belleza-sub-heading";
+}
+
+
+.agra-details-section-2 .owl-carousel p {
+    color: #333;
+    font-family: "proza-context";
+}
+
+.carousel-heading {
+    font-family: "comfortaa-heading";
+}
+
+.slider .owl-item.active.center .slider-card {
+    transform: scale(1.15);
+    opacity: 1;
+    background: #ff9966;
+    background: -webkit-linear-gradient(to bottom, #ff5e62, #ff9966);
+    background: linear-gradient(to bottom, #ff5e62, #ff9966);
+    color: #fff;
+}
+
+.slider-card {
+    background: #fff;
+    padding: 0px 0px;
+    margin: 50px 15px 90px 15px;
+    border-radius: 5px;
+    box-shadow: 0 15px 45px -20px rgb(0 0 0 / 73%);
+    transform: scale(0.9);
+    opacity: 0.5;
+    transition: all 0.3s;
+}
+
+.slider-card img {
+    border-radius: 5px 5px 0px 0px;
+}
+
+.owl-nav .owl-prev {
+    position: absolute;
+    top: calc(50% - 25px);
+    left: 0;
+    opacity: 1;
+    font-size: 30px !important;
+    z-index: 1;
+}
+
+.owl-nav .owl-next {
+    position: absolute;
+    top: calc(50% - 25px);
+    right: 0;
+    opacity: 1;
+    font-size: 30px !important;
+    z-index: 1;
+}
+
+.owl-dots {
+    text-align: center;
+}
+
+.owl-dots .owl-dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 10px;
+    background: #ccc !important;
+    margin-left: 3px;
+    margin-right: 3px;
+    outline: none;
+}
+
+.owl-dots .owl-dot.active {
+    background: #f44336 !important;
+}
+
+/* / AGRA-DETAILS-SECTION-3 / */
+
+.agra-details-fixed {
+    background-image: url('/images/taj-yamuna-view.jpg');
+    
+}
+
+.agra-details-section-3 .container .row:nth-of-type(1) .col-md-12 h2 {
+    font-family: "comfortaa-heading";
+    font-size: 50px;
+    position: relative;
+}
+
+.agra-details-section-3 .container .row:nth-of-type(1) .col-md-12 h2::after {
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: black;
+    height: 3px;
+    width: 10%;
+    top: 110%;
+    left: 0%;
+}
+
+
+.agra-details-section-3 .agra-resorts-heading {
+    background-color: #fff;
+    color: #000;
+}
+
+.agra-details-section-3 .container .row:nth-of-type(1) .col-md-12 p {
+    font-family: "proza-context";
+    font-size: 20px;
+}
+
+.agra-details-section-3 .col-md-6 {
+    overflow: hidden;
+}
+
+.agra-details-section-3 img:hover {
+    transform: scale(1.5);
+    transition: all 10s;
+}
+
+.agra-details-section-3 p {
+    font-family: "proza-context";
+    font-size: 18px;
+}
+
+.agra-details-section-3 h1 {
+    font-family: "comfortaa-heading";
+    font-size: 40px;
+}
+
+/* .agra-details-section-3 .container .row:nth-of-type(1) .col-md-12{
+    background-color: #222;
+    color: whitesmoke;
+} */
+
+
+.agra-details-section-3 .agra-resorts-heading {
+    /* / background-color: #333; / */
+    /* / color: white; / */
+}
+
+.agra-resorts-section {
+    /* / background-color: #00aced; / */
+}
+
+.agra-resorts-section-inside-left {
+    background-color: #e3e3e197;
+    color: black;
+    /* / border: 5px solid black; / */
+    border-top-left-radius: 300px;
+    border-bottom-left-radius: 300px;
+    /* / box-shadow: 0px 0px 10px 1px black; / */
+}
+
+.agra-resorts-section-inside-right {
+    background-color: #e3e3e197;
+    color: black;
+    /* / border: 5px solid black; / */
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 300px;
+}
+
+.agra-details-section-1{
+    width: 100%;
+    height: 500px;
+    background: url('../Videos/1920-1080.gif');
+    background-position: center;
+    background-size: cover;
+}
+
+.agra-details-section-1 .wrapper .row .col-md-12{
+    padding-top: 100px;
+}
+
+.newsletter{
+    background-color: #e3e3e1;
+    position: absolute;
+    /* width: 100%; */
+    width: 80%;
+    height: 80px;
+    left: 50%;
+    top: 0%;
+    transform: translate(-50%, -50%);
+}
+
+.newsletter .weMap{
+    color: #aa8453;
+}
+.newsletter .form-floating{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin: 0px auto!important; */
+    /* width: 50%!important; */
+    margin: 0px auto;
+}
+
+.newsletter .form-floating input{
+    padding: 10px;
+    border-radius: 10px 0px 0px 10px;
+    border: none;
+    outline: none;
+    width: 600px;
+    height: 48px;
+}
+.newsletter .form-floating button{
+    border-radius: 0px 10px 10px 0px;
+    height: 48px;
+    width: 200px;
+}
+.newsletter .container .col-md-12 .row .col-md-6 .form-floating input{
+    /* width: 40%!important; */
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.newsletter .container .col-md-12 .row .col-md-6 .form-floating button{
+border-top-left-radius: 0px;
+border-bottom-left-radius: 0px;
+}
+
+.newsletter .container .col-md-12 .row .col-md-4 h6{
+    font-size: 18px;
+    position: relative;
+}
+
+.newsletter .container .col-md-12 .row .col-md-4 h6::after{
+    content: "";
+    position: absolute;
+    display: block;
+    background-color: black;
+    height: 3px;
+    width: 20%;
+    top: 110%;
+}
+
+.newsletter .container .col-md-12 .row .col-md-2 h6{
+    font-size: 2.2rem;
+    font-family: "shalimar-italic";
+}
+
+.section-7 {
+    background-color: #333;
+    position: relative;
+}
+
+.section-7 .row .col-md-3:nth-child(1) p {
+    line-height: 2;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+.section-7 h4 {
+    color: white;
+    font-size: 16px;
+}
+
+.section-7 .row .col-md-2:nth-child(2) p a:hover {
+    color: whitesmoke;
+}
+
+.section-7 .row .col-md-2:nth-child(3) p a:hover {
+    color: whitesmoke;
+}
+
+.section-7 .row .col-md-2:nth-child(4) p a:hover {
+    color: whitesmoke;
+}
+
+.section-7 p,
+p a,
+h5 {
+    color: #adadad;
+    font-size: 14px;
+}

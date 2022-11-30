@@ -1,0 +1,21 @@
+@media screen and (max-width:800px) {
+    nav .container-inner {
+        display: none;
+    }
+
+    nav .savi {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .menu form {
+        display: none;
+    }
+}
+
+@media screen and (max-width:400px) {
+    html {
+        font-size: 13px;
+    }
+}
